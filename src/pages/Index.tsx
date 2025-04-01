@@ -3,7 +3,6 @@ import React from 'react';
 import WaitlistForm from '../components/WaitlistForm';
 import Benefits from '../components/Benefits';
 import SocialProof from '../components/SocialProof';
-import Logo from '../components/Logo';
 import { Toaster } from "@/components/ui/toaster";
 
 const Index = () => {
@@ -16,12 +15,6 @@ const Index = () => {
         <div className="flex flex-col md:flex-row min-h-[90vh] items-center">
           {/* Left side with form */}
           <div className="w-full md:w-1/2 p-4 md:p-8 lg:p-12 order-2 md:order-1 animate-fade-in">
-            <div className="mb-8 md:mb-12">
-              <div className="flex justify-between items-center">
-                <Logo />
-              </div>
-            </div>
-            
             <div className="mb-6 md:mb-10">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-accounting-dark mb-3">
                 Join Our Exclusive Waitlist
